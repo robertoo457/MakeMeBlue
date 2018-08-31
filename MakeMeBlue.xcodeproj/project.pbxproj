@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7D75B512139A1D90074FB3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D75B502139A1D90074FB3C /* AppDelegate.swift */; };
+		F7D75B532139A1D90074FB3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D75B522139A1D90074FB3C /* ViewController.swift */; };
+		F7D75B562139A1D90074FB3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D75B542139A1D90074FB3C /* Main.storyboard */; };
+		F7D75B582139A1DB0074FB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D75B572139A1DB0074FB3C /* Assets.xcassets */; };
+		F7D75B5B2139A1DB0074FB3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D75B592139A1DB0074FB3C /* LaunchScreen.storyboard */; };
+		F7D75B662139A1DB0074FB3C /* MakeMeBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D75B652139A1DB0074FB3C /* MakeMeBlueTests.swift */; };
+		F7D75B712139A1DC0074FB3C /* MakeMeBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D75B702139A1DC0074FB3C /* MakeMeBlueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7D75B622139A1DB0074FB3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D75B452139A1D90074FB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D75B4C2139A1D90074FB3C;
+			remoteInfo = MakeMeBlue;
+		};
+		F7D75B6D2139A1DC0074FB3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D75B452139A1D90074FB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D75B4C2139A1D90074FB3C;
+			remoteInfo = MakeMeBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7D75B4D2139A1D90074FB3C /* MakeMeBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeMeBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D75B502139A1D90074FB3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7D75B522139A1D90074FB3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7D75B552139A1D90074FB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7D75B572139A1DB0074FB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D75B5A2139A1DB0074FB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7D75B5C2139A1DB0074FB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D75B612139A1DB0074FB3C /* MakeMeBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeMeBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D75B652139A1DB0074FB3C /* MakeMeBlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMeBlueTests.swift; sourceTree = "<group>"; };
+		F7D75B672139A1DB0074FB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D75B6C2139A1DC0074FB3C /* MakeMeBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeMeBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D75B702139A1DC0074FB3C /* MakeMeBlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeMeBlueUITests.swift; sourceTree = "<group>"; };
+		F7D75B722139A1DC0074FB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D75B4A2139A1D90074FB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D75B5E2139A1DB0074FB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D75B692139A1DC0074FB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D75B442139A1D90074FB3C = {
+			isa = PBXGroup;
+			children = (
+				F7D75B4F2139A1D90074FB3C /* MakeMeBlue */,
+				F7D75B642139A1DB0074FB3C /* MakeMeBlueTests */,
+				F7D75B6F2139A1DC0074FB3C /* MakeMeBlueUITests */,
+				F7D75B4E2139A1D90074FB3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D75B4E2139A1D90074FB3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D75B4D2139A1D90074FB3C /* MakeMeBlue.app */,
+				F7D75B612139A1DB0074FB3C /* MakeMeBlueTests.xctest */,
+				F7D75B6C2139A1DC0074FB3C /* MakeMeBlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D75B4F2139A1D90074FB3C /* MakeMeBlue */ = {
+			isa = PBXGroup;
+			children = (
+				F7D75B502139A1D90074FB3C /* AppDelegate.swift */,
+				F7D75B522139A1D90074FB3C /* ViewController.swift */,
+				F7D75B542139A1D90074FB3C /* Main.storyboard */,
+				F7D75B572139A1DB0074FB3C /* Assets.xcassets */,
+				F7D75B592139A1DB0074FB3C /* LaunchScreen.storyboard */,
+				F7D75B5C2139A1DB0074FB3C /* Info.plist */,
+			);
+			path = MakeMeBlue;
+			sourceTree = "<group>";
+		};
+		F7D75B642139A1DB0074FB3C /* MakeMeBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D75B652139A1DB0074FB3C /* MakeMeBlueTests.swift */,
+				F7D75B672139A1DB0074FB3C /* Info.plist */,
+			);
+			path = MakeMeBlueTests;
+			sourceTree = "<group>";
+		};
+		F7D75B6F2139A1DC0074FB3C /* MakeMeBlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D75B702139A1DC0074FB3C /* MakeMeBlueUITests.swift */,
+				F7D75B722139A1DC0074FB3C /* Info.plist */,
+			);
+			path = MakeMeBlueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D75B4C2139A1D90074FB3C /* MakeMeBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D75B752139A1DC0074FB3C /* Build configuration list for PBXNativeTarget "MakeMeBlue" */;
+			buildPhases = (
+				F7D75B492139A1D90074FB3C /* Sources */,
+				F7D75B4A2139A1D90074FB3C /* Frameworks */,
+				F7D75B4B2139A1D90074FB3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeMeBlue;
+			productName = MakeMeBlue;
+			productReference = F7D75B4D2139A1D90074FB3C /* MakeMeBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7D75B602139A1DB0074FB3C /* MakeMeBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D75B782139A1DC0074FB3C /* Build configuration list for PBXNativeTarget "MakeMeBlueTests" */;
+			buildPhases = (
+				F7D75B5D2139A1DB0074FB3C /* Sources */,
+				F7D75B5E2139A1DB0074FB3C /* Frameworks */,
+				F7D75B5F2139A1DB0074FB3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D75B632139A1DB0074FB3C /* PBXTargetDependency */,
+			);
+			name = MakeMeBlueTests;
+			productName = MakeMeBlueTests;
+			productReference = F7D75B612139A1DB0074FB3C /* MakeMeBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7D75B6B2139A1DC0074FB3C /* MakeMeBlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D75B7B2139A1DC0074FB3C /* Build configuration list for PBXNativeTarget "MakeMeBlueUITests" */;
+			buildPhases = (
+				F7D75B682139A1DC0074FB3C /* Sources */,
+				F7D75B692139A1DC0074FB3C /* Frameworks */,
+				F7D75B6A2139A1DC0074FB3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D75B6E2139A1DC0074FB3C /* PBXTargetDependency */,
+			);
+			name = MakeMeBlueUITests;
+			productName = MakeMeBlueUITests;
+			productReference = F7D75B6C2139A1DC0074FB3C /* MakeMeBlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D75B452139A1D90074FB3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "ROBERTO CORDOBA";
+				TargetAttributes = {
+					F7D75B4C2139A1D90074FB3C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F7D75B602139A1DB0074FB3C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F7D75B4C2139A1D90074FB3C;
+					};
+					F7D75B6B2139A1DC0074FB3C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F7D75B4C2139A1D90074FB3C;
+					};
+				};
+			};
+			buildConfigurationList = F7D75B482139A1D90074FB3C /* Build configuration list for PBXProject "MakeMeBlue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D75B442139A1D90074FB3C;
+			productRefGroup = F7D75B4E2139A1D90074FB3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D75B4C2139A1D90074FB3C /* MakeMeBlue */,
+				F7D75B602139A1DB0074FB3C /* MakeMeBlueTests */,
+				F7D75B6B2139A1DC0074FB3C /* MakeMeBlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D75B4B2139A1D90074FB3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D75B5B2139A1DB0074FB3C /* LaunchScreen.storyboard in Resources */,
+				F7D75B582139A1DB0074FB3C /* Assets.xcassets in Resources */,
+				F7D75B562139A1D90074FB3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D75B5F2139A1DB0074FB3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D75B6A2139A1DC0074FB3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D75B492139A1D90074FB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D75B532139A1D90074FB3C /* ViewController.swift in Sources */,
+				F7D75B512139A1D90074FB3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D75B5D2139A1DB0074FB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D75B662139A1DB0074FB3C /* MakeMeBlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D75B682139A1DC0074FB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D75B712139A1DC0074FB3C /* MakeMeBlueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D75B632139A1DB0074FB3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D75B4C2139A1D90074FB3C /* MakeMeBlue */;
+			targetProxy = F7D75B622139A1DB0074FB3C /* PBXContainerItemProxy */;
+		};
+		F7D75B6E2139A1DC0074FB3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D75B4C2139A1D90074FB3C /* MakeMeBlue */;
+			targetProxy = F7D75B6D2139A1DC0074FB3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7D75B542139A1D90074FB3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D75B552139A1D90074FB3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7D75B592139A1DB0074FB3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7D75B5A2139A1DB0074FB3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7D75B732139A1DC0074FB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7D75B742139A1DC0074FB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D75B762139A1DC0074FB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeMeBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.116-rlas.MakeMeBlue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D75B772139A1DC0074FB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeMeBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.116-rlas.MakeMeBlue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7D75B792139A1DC0074FB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeMeBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.116-rlas.MakeMeBlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeMeBlue.app/MakeMeBlue";
+			};
+			name = Debug;
+		};
+		F7D75B7A2139A1DC0074FB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeMeBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.116-rlas.MakeMeBlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeMeBlue.app/MakeMeBlue";
+			};
+			name = Release;
+		};
+		F7D75B7C2139A1DC0074FB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeMeBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.116-rlas.MakeMeBlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakeMeBlue;
+			};
+			name = Debug;
+		};
+		F7D75B7D2139A1DC0074FB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MakeMeBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.116-rlas.MakeMeBlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakeMeBlue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D75B482139A1D90074FB3C /* Build configuration list for PBXProject "MakeMeBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D75B732139A1DC0074FB3C /* Debug */,
+				F7D75B742139A1DC0074FB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D75B752139A1DC0074FB3C /* Build configuration list for PBXNativeTarget "MakeMeBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D75B762139A1DC0074FB3C /* Debug */,
+				F7D75B772139A1DC0074FB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D75B782139A1DC0074FB3C /* Build configuration list for PBXNativeTarget "MakeMeBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D75B792139A1DC0074FB3C /* Debug */,
+				F7D75B7A2139A1DC0074FB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D75B7B2139A1DC0074FB3C /* Build configuration list for PBXNativeTarget "MakeMeBlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D75B7C2139A1DC0074FB3C /* Debug */,
+				F7D75B7D2139A1DC0074FB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7D75B452139A1D90074FB3C /* Project object */;
+}
